@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dijkstra algorithm</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="network-container"></div>
+    <div class="form-container">
+      <h1>Dijkstra</h1>
+      <label>
+          Shorter Path Wanted:
+          <div class="toggle-switch">
+            <input type="checkbox" id="toggle1">
+            <div class="toggle-slider"></div>
+          </div>
+      <br />
+      <label>
+          Lower Node Wanted:
+          <div class="toggle-switch">
+            <input type="checkbox" id="toggle2">
+            <div class="toggle-slider"></div>
+          </div>  
+        </label>
+        <input type="text" id="champ1" placeholder="Start">
+        <input type="text" id="champ2" placeholder="End">
+        <div class="button-container">
+          <button id="executer-btn" onclick="envoyerRequete()">Run</button>
+          <button id="json-btn" onclick="updateJson()">JSON Update</button>
+        </div>
+      </div>
+    </div>
+  
+  <script src="script6.js"></script>
+  <script src="script5.js"></script>
+  <script src="script4.js"></script>
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+  <script src="script3.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "database": "Input/Dijkstra.sqlite",
+    "table": "Dijkstra_Table",
+    "json_input": "Input/Dijkstra.json",
+    "database_output": "Output/Dijkstra-Output.sqlite",
+    "table_output": "Dijkstra_Table",
+    "start": "A",
+    "end": "C",
+    "connector": "sqlite",
+    "shorter_wanted": true,
+    "lower_wanted": false
+}
